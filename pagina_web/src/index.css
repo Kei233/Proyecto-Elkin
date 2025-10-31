@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @layer base {
+
+  * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+  }
+
     body {
         overflow: hidden;
         margin: 0;
